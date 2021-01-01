@@ -17,7 +17,7 @@ body {
 
 a {
 	text-decoration: none;
-	color: #ed0000;
+	color: white;
 }
 
 h1 {
@@ -50,14 +50,6 @@ hr {
 	padding-right: 10vw;
 	font-family: 'Praetorem';
 	box-sizing: border-box; /* this basically makes the width the exact screen size despite the padding property */
-}
-
-#subName {
-	font-size: 20px;
-	padding-right: 0;
-	color: #FFD700;
-	float: right;
-	font-weight: normal;
 }
 
 #links {
@@ -121,13 +113,30 @@ hr {
 
 #teamName {
 	color: #FFD700;
+	float: left;
+}
+
+#logo {
+	padding-right: 50px;
+	height: 150px;
+	vertical-align: text-bottom;
+	float: left;
 }
 
 #nameHolder {
 	float: right;
 }
 
-@media (max-width: 700px) { /*for small screens*/
+#subName {
+	font-size: 20px;
+	padding-right: 0;
+	color: #FFD700;
+	float: right;
+	font-weight: normal;
+}
+
+
+@media (max-width: 850px) { /*for small screens*/
 	#upperName {
 		position: fixed;
 		top: 0;
@@ -145,6 +154,14 @@ hr {
 		box-sizing: border-box; /* this basically makes the width the exact screen size despite the padding property */
 	}
 	
+	#logo {
+		padding-left: 50px;
+		height: 150px;
+		vertical-align: text-bottom;
+		float: left;
+		display: none;
+	}
+	
     #main {
 		position: relative;
 		z-index: 10;
@@ -154,6 +171,8 @@ hr {
 		padding: 60px;
 		box-sizing: border-box;
 	}
+	
+	
 
 	#subPage {
 		position: relative;

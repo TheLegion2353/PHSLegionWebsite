@@ -11,12 +11,7 @@
 	</head>
 	<body>
 		<div id="upperName">
-			<div id="nameHolder"><a href="/" id="teamName">The Legion</a></div><br />
-			<div id="subName">14995 - 2353 - Pembroke Hill's Robotics Team</div>
-			<!--<div id="links">
-				<a href="/about"><div id="link">About Us</div></a>
-				<a href="/members"><div id="link">Our Team</div></a>
-				<a href="/contact"><div id="link">Contact Us</div></a>
-			</div>-->
+			<div id="nameHolder"><a href="/" id="teamName"><img id="logo" src="/images/logoYellow.png" />The Legion</a></div><br / >
+			<div id="subName">14995 - 2353 - Pembroke Hill's Robotics Team<br />We Strafe Left</div>
 		</div>
 		<div id="main">

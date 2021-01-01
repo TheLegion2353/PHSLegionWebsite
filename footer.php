@@ -1,5 +1,7 @@
 		</div>
 		<div id="footer">
+			Links: 
+			<a href="/outreach">Outreach</a> | <a href="/resources">Resources</a> <br />
 			Contact Info: <br />
 			Address: 5121 State Line Rd, Kansas City, MO 64112 <br />
 			Email: rbaber@pembrokehill.org<br />

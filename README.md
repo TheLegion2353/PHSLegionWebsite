@@ -1,2 +1,0 @@
-# PHSLegionWebsite
-phslegion.com
